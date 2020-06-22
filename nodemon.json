@@ -1,0 +1,7 @@
+{
+    "watch": ["src", "server"],
+    "ext": ".js,.html,.jsx",
+    "ignore": ["node_modules", "dist"],
+    "exec": "npx webpack && node server/server.js",
+    "verbose": true
+  }
