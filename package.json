@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "nodemon server/server.js",
+    "dev": "webpack-dev-server --mode development --hot --open",
     "compile": "rimraf ./dist && npx webpack"
   },
   "keywords": [],
@@ -17,7 +18,8 @@
     "node": "^14.4.0",
     "rimraf": "^3.0.2",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "express": "^4.17.1",
